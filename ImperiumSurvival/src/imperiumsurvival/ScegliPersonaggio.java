@@ -3,7 +3,9 @@
  * Click nbfs://nbhost/SystemFileSystem/Templates/GUIForms/JFrame.java to edit this template
  */
 package imperiumsurvival;
-
+import java.awt.Image;
+import javax.swing.ImageIcon;
+import javax.swing.JOptionPane;
 /**
  *
  * @author onorati.nicolo
@@ -17,6 +19,44 @@ public class ScegliPersonaggio extends javax.swing.JFrame {
      */
     public ScegliPersonaggio() {
         initComponents();
+        ImageIcon immagineImp = new ImageIcon(getClass().getResource("Giulio_Cesare.png"));
+
+        Image img = immagineImp.getImage();
+        Image imgRidimensionata = img.getScaledInstance(223,371, Image.SCALE_SMOOTH);
+        immagineImp = new ImageIcon(imgRidimensionata);
+        
+        jButton1.setIcon(immagineImp);
+        
+        
+        
+        ImageIcon immagineImp2 = new ImageIcon(getClass().getResource("Augusto.png"));
+
+        Image img2 = immagineImp2.getImage();
+        Image imgRidimensionata2 = img2.getScaledInstance(223,371, Image.SCALE_SMOOTH);
+        immagineImp2 = new ImageIcon(imgRidimensionata2);
+        
+        jButton3.setIcon(immagineImp2);
+        
+        
+        
+        ImageIcon immagineImp3 = new ImageIcon(getClass().getResource("Nerone.png"));
+
+        Image img3 = immagineImp3.getImage();
+        Image imgRidimensionata3 = img3.getScaledInstance(223,371, Image.SCALE_SMOOTH);
+        immagineImp3 = new ImageIcon(imgRidimensionata3);
+        
+        jButton2.setIcon(immagineImp3);
+        
+        
+        
+                
+        ImageIcon immagineImp4 = new ImageIcon(getClass().getResource("Marco_Aurelio.png"));
+
+        Image img4 = immagineImp4.getImage();
+        Image imgRidimensionata4 = img4.getScaledInstance(223,371, Image.SCALE_SMOOTH);
+        immagineImp4 = new ImageIcon(imgRidimensionata4);
+        
+        jButton4.setIcon(immagineImp4);
     }
 
     /**
@@ -28,21 +68,88 @@ public class ScegliPersonaggio extends javax.swing.JFrame {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
+        jButton1 = new javax.swing.JButton();
+        jButton2 = new javax.swing.JButton();
+        jButton3 = new javax.swing.JButton();
+        jButton4 = new javax.swing.JButton();
+        jLabel1 = new javax.swing.JLabel();
+        btn_istruzioni = new javax.swing.JButton();
+
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
+
+        jButton1.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imperiumsurvival/Giulio_Cesare.png"))); // NOI18N
+        jButton1.setText("jButton1");
+
+        jButton2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imperiumsurvival/Nerone.png"))); // NOI18N
+        jButton2.setText("jButton1");
+
+        jButton3.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imperiumsurvival/Augusto.png"))); // NOI18N
+        jButton3.setText("jButton1");
+
+        jButton4.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imperiumsurvival/Marco_Aurelio.png"))); // NOI18N
+        jButton4.setText("jButton1");
+
+        jLabel1.setFont(new java.awt.Font("Trajan Pro", 0, 48)); // NOI18N
+        jLabel1.setText("SCEGLI IL TUO IMPERATORE");
+
+        btn_istruzioni.setText("ISTRUZIONI");
+        btn_istruzioni.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                btn_istruzioniActionPerformed(evt);
+            }
+        });
 
         javax.swing.GroupLayout layout = new javax.swing.GroupLayout(getContentPane());
         getContentPane().setLayout(layout);
         layout.setHorizontalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 920, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(31, 31, 31)
+                        .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(54, 54, 54)
+                        .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(62, 62, 62)
+                        .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addGap(70, 70, 70)
+                        .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 223, javax.swing.GroupLayout.PREFERRED_SIZE))
+                    .addGroup(layout.createSequentialGroup()
+                        .addGap(186, 186, 186)
+                        .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 788, javax.swing.GroupLayout.PREFERRED_SIZE)))
+                .addContainerGap(141, Short.MAX_VALUE))
+            .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, layout.createSequentialGroup()
+                .addGap(0, 0, Short.MAX_VALUE)
+                .addComponent(btn_istruzioni)
+                .addGap(72, 72, 72))
         );
         layout.setVerticalGroup(
             layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
-            .addGap(0, 315, Short.MAX_VALUE)
+            .addGroup(layout.createSequentialGroup()
+                .addContainerGap()
+                .addComponent(btn_istruzioni)
+                .addGap(26, 26, 26)
+                .addComponent(jLabel1, javax.swing.GroupLayout.PREFERRED_SIZE, 113, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addGap(18, 18, 18)
+                .addGroup(layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jButton1, javax.swing.GroupLayout.PREFERRED_SIZE, 371, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton3, javax.swing.GroupLayout.PREFERRED_SIZE, 371, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton2, javax.swing.GroupLayout.PREFERRED_SIZE, 371, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(jButton4, javax.swing.GroupLayout.PREFERRED_SIZE, 371, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(353, 353, 353))
         );
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
+
+    private void btn_istruzioniActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btn_istruzioniActionPerformed
+        JOptionPane.showMessageDialog(null, 
+            "Roma è un gigante stanco, sospeso tra la gloria e il baratro.\n" +
+            "Le legioni attendono un comando, il popolo reclama pane e il Senato affila i pugnali nell'ombra.\n\n" +
+            "Scegli il tuo Imperatore. La marcia ha inizio.", 
+            "Imperium Survival - Selezione", 
+            JOptionPane.INFORMATION_MESSAGE);
+    }//GEN-LAST:event_btn_istruzioniActionPerformed
 
     /**
      * @param args the command line arguments
@@ -70,5 +177,11 @@ public class ScegliPersonaggio extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btn_istruzioni;
+    private javax.swing.JButton jButton1;
+    private javax.swing.JButton jButton2;
+    private javax.swing.JButton jButton3;
+    private javax.swing.JButton jButton4;
+    private javax.swing.JLabel jLabel1;
     // End of variables declaration//GEN-END:variables
 }
