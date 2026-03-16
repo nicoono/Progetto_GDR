@@ -24,6 +24,7 @@
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
           <Group type="102" attributes="0">
               <Group type="103" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
@@ -48,6 +49,8 @@
               <Component id="btn_istruzioni" min="-2" max="-2" attributes="0"/>
               <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
 =======
+=======
+>>>>>>> Stashed changes
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
               <Component id="jButton4" min="-2" pref="176" max="-2" attributes="0"/>
@@ -63,12 +66,16 @@
               <EmptySpace min="-2" pref="426" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
           <Group type="102" alignment="0" attributes="0">
               <EmptySpace max="-2" attributes="0"/>
@@ -84,6 +91,8 @@
               </Group>
               <EmptySpace min="-2" pref="353" max="-2" attributes="0"/>
 =======
+=======
+>>>>>>> Stashed changes
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
@@ -95,6 +104,9 @@
                   <Component id="jButton4" alignment="3" min="-2" pref="240" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
+<<<<<<< Updated upstream
+>>>>>>> Stashed changes
+=======
 >>>>>>> Stashed changes
           </Group>
       </Group>
@@ -104,9 +116,12 @@
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/imperiumsurvival/Giulio_Cesare.png"/>
         </Property>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         <Property name="text" type="java.lang.String" value="jButton1"/>
@@ -115,9 +130,12 @@
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/imperiumsurvival/Nerone.png"/>
         </Property>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         <Property name="text" type="java.lang.String" value="jButton1"/>
@@ -126,9 +144,12 @@
     <Component class="javax.swing.JButton" name="jButton3">
       <Properties>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/imperiumsurvival/Augusto.png"/>
         </Property>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         <Property name="text" type="java.lang.String" value="jButton1"/>
@@ -137,9 +158,12 @@
     <Component class="javax.swing.JButton" name="jButton4">
       <Properties>
 <<<<<<< Updated upstream
+<<<<<<< Updated upstream
         <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
           <Image iconType="3" name="/imperiumsurvival/Marco_Aurelio.png"/>
         </Property>
+=======
+>>>>>>> Stashed changes
 =======
 >>>>>>> Stashed changes
         <Property name="text" type="java.lang.String" value="jButton1"/>
@@ -147,6 +171,7 @@
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
+<<<<<<< Updated upstream
 <<<<<<< Updated upstream
         <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
           <Font name="Trajan Pro" size="48" style="0"/>
@@ -162,6 +187,11 @@
         <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_istruzioniActionPerformed"/>
       </Events>
     </Component>
+=======
+        <Property name="text" type="java.lang.String" value="Scegli il tuo personaggio"/>
+      </Properties>
+    </Component>
+>>>>>>> Stashed changes
 =======
         <Property name="text" type="java.lang.String" value="Scegli il tuo personaggio"/>
       </Properties>
