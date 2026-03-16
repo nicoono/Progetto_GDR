@@ -23,31 +23,6 @@
   <Layout>
     <DimensionLayout dim="0">
       <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< Updated upstream
-          <Group type="102" attributes="0">
-              <Group type="103" groupAlignment="0" attributes="0">
-                  <Group type="102" attributes="0">
-                      <EmptySpace min="-2" pref="31" max="-2" attributes="0"/>
-                      <Component id="jButton1" min="-2" pref="223" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="54" max="-2" attributes="0"/>
-                      <Component id="jButton3" min="-2" pref="223" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="62" max="-2" attributes="0"/>
-                      <Component id="jButton2" min="-2" pref="223" max="-2" attributes="0"/>
-                      <EmptySpace min="-2" pref="70" max="-2" attributes="0"/>
-                      <Component id="jButton4" min="-2" pref="223" max="-2" attributes="0"/>
-                  </Group>
-                  <Group type="102" alignment="0" attributes="0">
-                      <EmptySpace min="-2" pref="186" max="-2" attributes="0"/>
-                      <Component id="jLabel1" min="-2" pref="788" max="-2" attributes="0"/>
-                  </Group>
-              </Group>
-              <EmptySpace pref="141" max="32767" attributes="0"/>
-          </Group>
-          <Group type="102" alignment="1" attributes="0">
-              <EmptySpace min="0" pref="0" max="32767" attributes="0"/>
-              <Component id="btn_istruzioni" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="72" max="-2" attributes="0"/>
-=======
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="-2" pref="37" max="-2" attributes="0"/>
               <Component id="jButton4" min="-2" pref="176" max="-2" attributes="0"/>
@@ -63,27 +38,11 @@
               <EmptySpace min="-2" pref="426" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
               <EmptySpace max="32767" attributes="0"/>
->>>>>>> Stashed changes
           </Group>
       </Group>
     </DimensionLayout>
     <DimensionLayout dim="1">
       <Group type="103" groupAlignment="0" attributes="0">
-<<<<<<< Updated upstream
-          <Group type="102" alignment="0" attributes="0">
-              <EmptySpace max="-2" attributes="0"/>
-              <Component id="btn_istruzioni" min="-2" max="-2" attributes="0"/>
-              <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-              <Component id="jLabel1" min="-2" pref="113" max="-2" attributes="0"/>
-              <EmptySpace type="separate" max="-2" attributes="0"/>
-              <Group type="103" groupAlignment="3" attributes="0">
-                  <Component id="jButton1" alignment="3" min="-2" pref="371" max="-2" attributes="0"/>
-                  <Component id="jButton3" alignment="3" min="-2" pref="371" max="-2" attributes="0"/>
-                  <Component id="jButton2" alignment="3" min="-2" pref="371" max="-2" attributes="0"/>
-                  <Component id="jButton4" alignment="3" min="-2" pref="371" max="-2" attributes="0"/>
-              </Group>
-              <EmptySpace min="-2" pref="353" max="-2" attributes="0"/>
-=======
           <Group type="102" alignment="1" attributes="0">
               <EmptySpace min="-2" pref="19" max="-2" attributes="0"/>
               <Component id="jLabel1" min="-2" max="-2" attributes="0"/>
@@ -95,7 +54,6 @@
                   <Component id="jButton4" alignment="3" min="-2" pref="240" max="-2" attributes="0"/>
               </Group>
               <EmptySpace max="-2" attributes="0"/>
->>>>>>> Stashed changes
           </Group>
       </Group>
     </DimensionLayout>
@@ -103,69 +61,28 @@
   <SubComponents>
     <Component class="javax.swing.JButton" name="jButton1">
       <Properties>
-<<<<<<< Updated upstream
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imperiumsurvival/Giulio_Cesare.png"/>
-        </Property>
-=======
->>>>>>> Stashed changes
         <Property name="text" type="java.lang.String" value="jButton1"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton2">
       <Properties>
-<<<<<<< Updated upstream
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imperiumsurvival/Nerone.png"/>
-        </Property>
-=======
->>>>>>> Stashed changes
         <Property name="text" type="java.lang.String" value="jButton1"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton3">
       <Properties>
-<<<<<<< Updated upstream
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imperiumsurvival/Augusto.png"/>
-        </Property>
-=======
->>>>>>> Stashed changes
         <Property name="text" type="java.lang.String" value="jButton1"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JButton" name="jButton4">
       <Properties>
-<<<<<<< Updated upstream
-        <Property name="icon" type="javax.swing.Icon" editor="org.netbeans.modules.form.editors2.IconEditor">
-          <Image iconType="3" name="/imperiumsurvival/Marco_Aurelio.png"/>
-        </Property>
-=======
->>>>>>> Stashed changes
         <Property name="text" type="java.lang.String" value="jButton1"/>
       </Properties>
     </Component>
     <Component class="javax.swing.JLabel" name="jLabel1">
       <Properties>
-<<<<<<< Updated upstream
-        <Property name="font" type="java.awt.Font" editor="org.netbeans.beaninfo.editors.FontEditor">
-          <Font name="Trajan Pro" size="48" style="0"/>
-        </Property>
-        <Property name="text" type="java.lang.String" value="SCEGLI IL TUO IMPERATORE"/>
-      </Properties>
-    </Component>
-    <Component class="javax.swing.JButton" name="btn_istruzioni">
-      <Properties>
-        <Property name="text" type="java.lang.String" value="ISTRUZIONI"/>
-      </Properties>
-      <Events>
-        <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btn_istruzioniActionPerformed"/>
-      </Events>
-    </Component>
-=======
         <Property name="text" type="java.lang.String" value="Scegli il tuo personaggio"/>
       </Properties>
     </Component>
->>>>>>> Stashed changes
   </SubComponents>
 </Form>
